@@ -20,7 +20,7 @@ ITMO.ID: 335189
 
 **Добавление**
 
-За добавление отвечаеn член класса Insert:
+За добавление отвечает член класса Insert:
 
      member this.Insert (word: string) =
             let rec insertNode (node: TrieNode) (word: char list) =
