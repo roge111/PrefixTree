@@ -49,4 +49,4 @@ jobs:
         run: |
             
             dotnet build ./PrefixTreeLib
-            dotnet test ./PrefixTreeLib
+            dotnet test ./Tests
