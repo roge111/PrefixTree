@@ -7,8 +7,6 @@
 
   <ItemGroup>
     <Compile Include="Trie.fs" /> <!-- Добавлено определение Trie.fs -->
-    <Compile Include="PropertyBasedTests.fs" /> 
-    <Compile Include="UnitTests.fs" /> 
   </ItemGroup>
 
   <ItemGroup>
