@@ -45,8 +45,14 @@ jobs:
         run: dotnet run --project ./PrefixTreeLib
 
 
-      - name: Tests
+      - name: Tests Unit
         run: |
             
             dotnet build ./PrefixTreeLib
             dotnet test ./PrefixTreeLib/Tests
+            
+      - name: Tests Property
+        run: |
+            
+            dotnet build ./PrefixTreeLib
+            dotnet test ./PrefixTreeLib/PropTests
